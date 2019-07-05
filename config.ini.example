@@ -1,0 +1,8 @@
+[DATABASE]
+dbname = airsspace
+user = postgres
+password = 
+host = 128.0.0.1
+port = 5432
+
+[STRUCTURE]

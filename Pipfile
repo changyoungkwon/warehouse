@@ -10,6 +10,8 @@ autopep8 = "*"
 [packages]
 psycopg2 = "*"
 numpy = "*"
+rawdatarinator = "*"
+flask = "*"
 
 [requires]
 python_version = "3.6"
