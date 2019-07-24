@@ -5,4 +5,9 @@ password =
 host = 128.0.0.1
 port = 5432
 
-[STRUCTURE]
+[FOLDER]
+
+[POSTPROCESS]
+functor1 = apple.apple
+functor2 = banana.banana
+functor3 = carrot.carrot

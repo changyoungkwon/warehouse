@@ -3,8 +3,7 @@ from os import sys
 import psycopg2
 import configparser
 from rawdatarinator import raw as rparser
-
-config_path = Path("./config.ini")
+from . import postprocess
 
 class Database:
     """Database wrapper"""
@@ -30,8 +29,17 @@ class Database:
             cursor.execute("")
         except psycopg2.Error:
             print("[error]db insert error")
-        
-        
+
+    def fetch(self, options):
+      """fetch databae entities based on options"""
+
+
+    def commit(self):
+      """commit database"""
+
+    def rollback(self):
+      """rollback database, if something's wrong happens"""
+
 
 def database_test(config_path): 
     """Connect to database, return the cursor"""
